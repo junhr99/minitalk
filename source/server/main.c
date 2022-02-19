@@ -3,17 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mmizuno <mmizuno@student.42tokyo.jp>       +#+  +:+       +#+        */
+/*   By: hyjeon <hyjeon@student.42seoul.kr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/05/30 21:28:42 by mmizuno           #+#    #+#             */
-/*   Updated: 2021/06/07 18:16:35 by mmizuno          ###   ########.fr       */
+/*   Created: 2022/02/19 16:48:01 by hyjeon            #+#    #+#             */
+/*   Updated: 2022/02/19 16:48:16 by hyjeon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../include/server.h"
 
 int		g_receive_signal;
-
 
 void	exit_server(t_server_vars *vars, char *message, bool success)
 {
@@ -30,14 +29,12 @@ void	exit_server(t_server_vars *vars, char *message, bool success)
 	}
 }
 
-
 static void	check_argument(int argc, char **argv, t_server_vars *vars)
 {
 	(void)argv;
 	if (argc != 1)
 		exit_server(vars, "USAGE: ./server", false);
 }
-
 
 int	main(int argc, char **argv)
 {

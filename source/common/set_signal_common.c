@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   set_signal_common.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mmizuno <mmizuno@student.42tokyo.jp>       +#+  +:+       +#+        */
+/*   By: hyjeon <hyjeon@student.42seoul.kr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/06/01 03:56:30 by mmizuno           #+#    #+#             */
-/*   Updated: 2021/06/07 18:14:59 by mmizuno          ###   ########.fr       */
+/*   Created: 2022/02/19 16:45:03 by hyjeon            #+#    #+#             */
+/*   Updated: 2022/02/19 16:47:03 by hyjeon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,6 @@ static void	handle_signal(int signal)
 {
 	g_receive_signal = signal;
 }
-
 
 void	set_signal(void)
 {

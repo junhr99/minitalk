@@ -3,15 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   print_message_common.c                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mmizuno <mmizuno@student.42tokyo.jp>       +#+  +:+       +#+        */
+/*   By: hyjeon <hyjeon@student.42seoul.kr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/05/30 22:21:53 by mmizuno           #+#    #+#             */
-/*   Updated: 2021/06/04 19:39:45 by mmizuno          ###   ########.fr       */
+/*   Created: 2022/02/19 16:46:27 by hyjeon            #+#    #+#             */
+/*   Updated: 2022/02/19 16:46:34 by hyjeon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../include/server.h"
-
 
 void	print_success_message(char *message)
 {

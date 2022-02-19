@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mmizuno <mmizuno@student.42tokyo.jp>       +#+  +:+       +#+        */
+/*   By: hyjeon <hyjeon@student.42seoul.kr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/10/09 01:17:52 by mmizuno           #+#    #+#             */
-/*   Updated: 2021/04/26 22:44:18 by mmizuno          ###   ########.fr       */
+/*   Created: 2022/02/19 16:44:19 by hyjeon            #+#    #+#             */
+/*   Updated: 2022/02/19 16:44:26 by hyjeon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,6 @@ static void	skipspace_and_checksign(char *nptr, int *pos, int *sign)
 		(*pos)++;
 	}
 }
-
 
 int	ft_atoi(const char *nptr)
 {

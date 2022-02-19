@@ -3,17 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   server.h                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mmizuno <mmizuno@student.42tokyo.jp>       +#+  +:+       +#+        */
+/*   By: hyjeon <hyjeon@student.42seoul.kr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/05/30 21:29:52 by mmizuno           #+#    #+#             */
-/*   Updated: 2021/06/06 14:39:46 by mmizuno          ###   ########.fr       */
+/*   Created: 2022/02/19 16:42:15 by hyjeon            #+#    #+#             */
+/*   Updated: 2022/02/19 16:42:33 by hyjeon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef SERVER_H
 # define SERVER_H
-
-
 
 # include "common.h"
 
